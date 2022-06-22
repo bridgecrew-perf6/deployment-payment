@@ -7,8 +7,8 @@ replicaCount: 2
 image:
   repository: eazytraining/payment
   pullPolicy: IfNotPresent
-  # Overrides the image tag: "${BUILD_NUMBER}"
-  tag: "1.0.0"
+  # Overrides the image tag: 3
+  tag: 3
 
 imagePullSecrets: []
 nameOverride: ""
